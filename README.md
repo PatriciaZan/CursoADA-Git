@@ -1,3 +1,4 @@
+# Resumo comandos GIT
 #Configurações do git
 
 ---USER AND EMAIL---
@@ -36,9 +37,21 @@ git restore .\'' -> restaura anterior
 get restore --stage .\'' -> retira da area de Stage
 
 ---REPOSITÓRIOS REMOTOS---
-GIT PUSH
+git remote
 
+git push origin master
 
+git pull -> adiciona novos do repositório
+
+git fetch -> verifica oque está para vir de novo/diferente
+
+---GIT BRANCH---
+git branch 'testing' -> cria nova branch
+git log --oneline -decorate -> indica onde HEAD está
+git checkout 'testing' -> HEAD aponta para testing
+
+---MERGING BRANCHES---
+git merge 'testing' -> irá unir as branchs
 
 
 
