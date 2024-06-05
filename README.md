@@ -1,19 +1,37 @@
 # Resumo comandos GIT
 
+- USER AND EMAIL.
 
-- USER AND EMAIL
-`git config --global user.name "user name"`
-`git config --global user.email 'user email'`
+`git config --global user.name "user name"`.
 
-- VERSIONAMENTO
-#Clonar repositório
+`git config --global user.email 'user email'`.
+
+- GRAVANDO MUDANÇAS.
+
+`git status`  -> checa o Status .
+
+`get add .\`'nome do arquivo' -> adicionar modificações para o Stage.
+
+- ATUALIZAR REPOSITÓRIOS REMOTOS.
+
+`git push origin master`.
+
+`git pull` -> adiciona novos do repositório.
+
+`git fetch` -> verifica oque está para vir de novo/diferente.
+
+
+
+----
+### Clonar repositórioS
+
 GitHub -> Code -> HTTPS -> copy link
 
-PromptComando
+Por meio do PromptComando
 cd CTR+V(pasta destino) 
 git clone (link copiado)
 
-#pelo VSCODE
+Por meio do VSCODE
 Adiciona .git e inicializa
 `git init` 
 
